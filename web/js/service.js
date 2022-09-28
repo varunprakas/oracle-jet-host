@@ -1,0 +1,1 @@
+define(["require","exports","text!../../js/projectData.json"],(function(require,e,t){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.serviceApi=void 0,e.serviceApi=function(){return new Promise(((e,i)=>{setTimeout((()=>{e(JSON.parse(t))}),2e3)}))}}));

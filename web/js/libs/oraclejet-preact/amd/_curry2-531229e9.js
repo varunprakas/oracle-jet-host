@@ -1,0 +1,2 @@
+define(["exports","./_curry1-2a38bee3"],(function(r,n){"use strict";var e=n._curry1_1,t=n._isPlaceholder_1;var u=function(r){return function n(u,c){switch(arguments.length){case 0:return n;case 1:return t(u)?n:e((function(n){return r(u,n)}));default:return t(u)&&t(c)?n:t(u)?e((function(n){return r(n,c)})):t(c)?e((function(n){return r(u,n)})):r(u,c)}}};r._curry2_1=u}));
+//# sourceMappingURL=_curry2-531229e9.js.map

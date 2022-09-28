@@ -1,0 +1,1 @@
+define(["require","exports","../accUtils"],(function(require,e,n){"use strict";return class{constructor(){}connected(){n.announce("Incidents page loaded."),document.title="Incidents"}disconnected(){}transitionCompleted(){}}}));

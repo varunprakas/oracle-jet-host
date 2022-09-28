@@ -1,0 +1,2 @@
+define(["exports","../UNSAFE_arrayUtils","../UNSAFE_size","../../_curry1-2a38bee3","../UNSAFE_stringUtils","../../stringUtils-f9014434"],(function(i,e,t,n,r,s){"use strict";var o=(0,n._curry1_1)((function(i){return null==i}));const a=e.stringLiteralArray(["height","maxHeight","maxWidth","minHeight","minWidth","width"]),u=i=>e=>{const n=e[i];return o(e[i])?{}:{[i]:t.sizeToCSS(n)}},c=a.reduce(((i,e)=>Object.assign(i,{[e]:u(e)})),{});i.dimensionInterpolations=c,i.dimensions=a,Object.defineProperty(i,"__esModule",{value:!0})}));
+//# sourceMappingURL=dimensions.js.map
